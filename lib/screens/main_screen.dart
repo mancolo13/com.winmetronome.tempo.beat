@@ -32,27 +32,26 @@ class _MainScreenState extends State<MainScreen> {
         backgroundColor: AppTheme.surfaceColor,
         indicatorColor: AppTheme.primaryColor.withValues(alpha: 0.2),
         destinations: [
-        NavigationDestination(
-          icon: const Icon(Icons.music_note_outlined),
-          selectedIcon: const Icon(Icons.music_note, color: AppTheme.primaryColor),
-          label: 'Metronome',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.touch_app_outlined),
-          selectedIcon: const Icon(Icons.touch_app, color: AppTheme.primaryColor),
-          label: 'Tap',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.graphic_eq_outlined),
-          selectedIcon: const Icon(Icons.graphic_eq, color: AppTheme.primaryColor),
-          label: 'Poly',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.timer_outlined),
-          selectedIcon: const Icon(Icons.timer, color: AppTheme.primaryColor),
-          label: 'Practice',
-        ),
-
+          NavigationDestination(
+            icon: const Icon(Icons.dashboard_outlined),
+            selectedIcon: const Icon(Icons.dashboard, color: AppTheme.primaryColor),
+            label: 'Metronome',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.list_alt_outlined),
+            selectedIcon: const Icon(Icons.list_alt, color: AppTheme.primaryColor),
+            label: 'Rhythms',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.analytics_outlined),
+            selectedIcon: const Icon(Icons.analytics, color: AppTheme.primaryColor),
+            label: 'Trainer',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.settings_outlined),
+            selectedIcon: const Icon(Icons.settings, color: AppTheme.primaryColor),
+            label: 'Setlist',
+          ),
         ],
       ),
     );
